@@ -26,3 +26,6 @@ This keeps the app fully demoable and easy to deploy on Vercel without setting u
 npm install
 npm run dev
 ```
+
+## Vercel Deployed
+[Vercel Application]([url](https://fit-buddy-ai-57.vercel.app/))
