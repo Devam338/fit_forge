@@ -15,7 +15,6 @@ An easy-to-use fitness/diet tracker
 - Notifications
 - Settings
 
-This keeps the app fully demoable and easy to deploy on Vercel without setting up a database.
 
 ## Tech stack
 - Next.js 14
