@@ -28,4 +28,4 @@ npm run dev
 ```
 
 ## Vercel Deployed
-[Vercel Application]([url](https://fit-buddy-ai-57.vercel.app/))
+[Vercel Application]([https://fit-buddy-ai-57.vercel.app/])
