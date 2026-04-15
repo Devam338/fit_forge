@@ -2,6 +2,8 @@
 
 An easy-to-use fitness tracker
 
+<img width="1680" height="962" alt="Screenshot 2026-04-14 at 9 14 12 PM" src="https://github.com/user-attachments/assets/9be51589-8ae6-4a2e-8904-dc762f167c72" />
+
 ## Included pages
 - Dashboard
 - Workouts
