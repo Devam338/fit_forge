@@ -108,7 +108,7 @@ export default function DashboardPage() {
           </div>
           {todayWorkouts.length === 0 ? (
             <div className="empty">No workouts planned for today. Add one!</div>
-          ) : (
+          ):(
             <div className="list">
               {todayWorkouts.map((workout) => (
                 <div key={workout.id} className="list-item between">
