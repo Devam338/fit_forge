@@ -1,5 +1,4 @@
 'use client';
-
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Bell, Bot, Dumbbell, Flame, LayoutDashboard, LogOut, MapPin, Moon, Salad, Settings, Trophy, TrendingUp } from 'lucide-react';
