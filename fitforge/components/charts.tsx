@@ -2,7 +2,7 @@
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: number; burned: number }[] }) {
-  return (
+  return(
     <div className="chart-placeholder">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
@@ -20,7 +20,7 @@ export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: n
 } 
 
 export function WeightTrendChart({ data }: { data: { date: string; weight: number }[] }) {
-  return (
+  return(
     <div className="chart-placeholder">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
