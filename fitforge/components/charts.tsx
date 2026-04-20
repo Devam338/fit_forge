@@ -1,5 +1,4 @@
 'use client';
-
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: number; burned: number }[] }) {
