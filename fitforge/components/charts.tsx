@@ -18,7 +18,7 @@ export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: n
       </ResponsiveContainer>
     </div>
   );
-}
+} 
 
 export function WeightTrendChart({ data }: { data: { date: string; weight: number }[] }) {
   return (
