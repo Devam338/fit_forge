@@ -13,7 +13,7 @@ export default function AchievementsPage() {
     ['Meal Tracker', 'Logged 50 meals', state.meals.length >= 50],
     ['Weight Watcher', 'Logged weight for 7 days', state.weightLogs.length >= 7],
     ['Hydrated', 'Hit water goal 5 times', Object.values(state.waterIntakeByDate).filter((v) => v >= state.profile.waterGoal).length >= 5],
-    ['Century Club', 'Completed 100 workouts', state.workouts.length >= 100],
+    ['Century Club', 'Completed 100 workouts', state.workouts.length >= 100], 
   ] as const;
   const unlocked = badges.filter(([, , done]) => done).length;
 
