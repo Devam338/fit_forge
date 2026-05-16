@@ -1,7 +1,7 @@
 'use client';
 
 import { Card } from '@/components/ui';  
-import { useStore } from '@/components/store';
+import { useStore } from '@/components/store'; 
 import { Lock, Trophy } from 'lucide-react'; 
 
 export default function AchievementsPage() {
