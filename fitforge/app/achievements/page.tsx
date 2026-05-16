@@ -7,7 +7,7 @@ import { Lock, Trophy } from 'lucide-react';
 export default function AchievementsPage() {
   const { state } = useStore();
   const badges = [
-    ['First Workout', 'Completed your first workout', state.workouts.length >= 1],
+    ['First Workout', 'Completed your first workout', state.workouts.length >= 1], 
     ['7-Day Streak', '7 consecutive days of activity', false],
     ['30-Day Streak', '30 consecutive days of activity', false],  
     ['Meal Tracker', 'Logged 50 meals', state.meals.length >= 50],
