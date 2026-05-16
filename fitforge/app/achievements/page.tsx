@@ -9,7 +9,7 @@ export default function AchievementsPage() {
   const badges = [
     ['First Workout', 'Completed your first workout', state.workouts.length >= 1],
     ['7-Day Streak', '7 consecutive days of activity', false],
-    ['30-Day Streak', '30 consecutive days of activity', false], 
+    ['30-Day Streak', '30 consecutive days of activity', false],  
     ['Meal Tracker', 'Logged 50 meals', state.meals.length >= 50],
     ['Weight Watcher', 'Logged weight for 7 days', state.weightLogs.length >= 7],
     ['Hydrated', 'Hit water goal 5 times', Object.values(state.waterIntakeByDate).filter((v) => v >= state.profile.waterGoal).length >= 5],
