@@ -24,7 +24,7 @@ An easy-to-use fitness/diet tracker
 - react
 
 ## Run locally
-```bash
+```bash 
 npm install
 npm run dev
 ```
