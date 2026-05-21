@@ -1,6 +1,6 @@
 'use client';
 import { Bot, Send } from 'lucide-react'; 
-import { Card } from '@/components/ui';
+import { Card } from '@/components/ui'; 
 import { useStore } from '@/components/store';
 import { useState } from 'react';
 
