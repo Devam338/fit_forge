@@ -23,7 +23,7 @@ export default function CoachPage() {
             <div key={idx} className={`message ${msg.role === 'user' ? 'user' : ''}`}>{msg.content}</div>
           ))}
         </div>
-        <div className="chat-input row">
+        <div className="chat-input row"> 
           <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Ask your coach anything..." />
           <button className="action-btn" onClick={() => { if (input.trim()) { sendAiMessage(input); setInput(''); } }}><Send size={16} /></button>
         </div>
