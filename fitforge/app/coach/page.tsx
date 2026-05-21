@@ -27,7 +27,7 @@ export default function CoachPage() {
           <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Ask your coach anything..." />
           <button className="action-btn" onClick={() => { if (input.trim()) { sendAiMessage(input); setInput(''); } }}><Send size={16} /></button>
         </div>
-      </Card>
+      </Card> 
     </div>
   );
 }
