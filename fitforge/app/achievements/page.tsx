@@ -41,7 +41,7 @@ export default function AchievementsPage() {
                 <div style={{ fontWeight: 800, color: done ? '#111827' : '#737373' }}>{title}</div>
                 <div className="muted">{desc}</div>
               </div>
-            </div>
+            </div> 
           </Card> 
         ))}
       </div>
