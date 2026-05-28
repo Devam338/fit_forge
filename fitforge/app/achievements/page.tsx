@@ -42,7 +42,7 @@ export default function AchievementsPage() {
                 <div className="muted">{desc}</div>
               </div>
             </div>
-          </Card>
+          </Card> 
         ))}
       </div>
     </div>
