@@ -30,7 +30,7 @@ export default function AchievementsPage() {
             <div className="muted">Current Streak · Best: 0 days</div>
           </div>
         </div>
-      </Card>
+      </Card> 
       <h2 className="section-title"><Trophy color="#22c55e" size={18} /> Badges ({unlocked}/7)</h2>
       <div className="badge-grid">
         {badges.map(([title, desc, done]) => (
