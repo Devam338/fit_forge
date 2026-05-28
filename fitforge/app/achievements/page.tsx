@@ -28,7 +28,7 @@ export default function AchievementsPage() {
           <div> 
             <div className="title-xl" style={{ fontSize: 28 }}>0 days</div>
             <div className="muted">Current Streak · Best: 0 days</div>
-          </div>
+          </div> 
         </div>
       </Card> 
       <h2 className="section-title"><Trophy color="#22c55e" size={18} /> Badges ({unlocked}/7)</h2>
