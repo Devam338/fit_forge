@@ -25,7 +25,7 @@ export default function AchievementsPage() {
       <Card>
         <div className="row">
           <div style={{ width: 60, height: 60, borderRadius: 18, background: '#fde7da', display: 'grid', placeItems: 'center' }}><Trophy color="#f97316" /></div>
-          <div>
+          <div> 
             <div className="title-xl" style={{ fontSize: 28 }}>0 days</div>
             <div className="muted">Current Streak · Best: 0 days</div>
           </div>
