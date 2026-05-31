@@ -14,7 +14,7 @@ export default function ProgressPage() {
     bodyFat: state.profile.bodyFat, 
     waist: state.profile.waist,
     biceps: state.profile.biceps,
-    steps: state.profile.steps,
+    steps: state.profile.steps, 
   });
 
   const labels = getWeekdayLabels();
