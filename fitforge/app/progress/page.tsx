@@ -22,7 +22,7 @@ export default function ProgressPage() {
   const weeklyCalories = useMemo(() => labels.map((day, idx) => {
     const date = new Date();
     date.setDate(date.getDate() - (6 - idx)); 
-    const dateStr = date.toISOString().slice(0, 10);
+    const dateStr = date.toISOString().slice(0, 10); 
     const consumed = state.meals.filter((m) => m.date === dateStr).reduce((sum, m) => sum + m.calories, 0);
     const burned = state.workouts.filter((w) => w.date === dateStr).reduce((sum, w) => sum + w.calories, 0);
     return { day, consumed, burned };
