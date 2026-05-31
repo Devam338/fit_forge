@@ -8,7 +8,7 @@ import { getWeekdayLabels } from '@/lib/utils';
 import { Activity, Dumbbell, Footprints, Ruler, TrendingUp, Weight } from 'lucide-react';
 
 export default function ProgressPage() {
-  const { state, logProgress } = useStore();
+  const { state, logProgress } = useStore(); 
   const [form, setForm] = useState({
     weightKg: String(state.profile.weightKg),
     bodyFat: state.profile.bodyFat,
