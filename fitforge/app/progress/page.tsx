@@ -11,7 +11,7 @@ export default function ProgressPage() {
   const { state, logProgress } = useStore(); 
   const [form, setForm] = useState({
     weightKg: String(state.profile.weightKg),
-    bodyFat: state.profile.bodyFat,
+    bodyFat: state.profile.bodyFat, 
     waist: state.profile.waist,
     biceps: state.profile.biceps,
     steps: state.profile.steps,
