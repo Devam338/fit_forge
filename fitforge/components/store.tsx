@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react'; 
 import { defaultState, todayString } from '@/lib/defaults'; 
 import { AppState, Meal, Workout } from '@/lib/types'; 
-import { foodPresets } from '@/lib/utils';
+import { foodPresets } from '@/lib/utils'; 
  
 interface StoreContextValue {
   state: AppState;
