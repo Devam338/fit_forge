@@ -19,7 +19,7 @@ An easy-to-use fitness/diet tracker
 ## Tech stack
 - Next.js 14
 - TypeScript 
-- Recharts
+- Recharts 
 - lucide-react 
 - react
 
