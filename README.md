@@ -20,7 +20,7 @@ An easy-to-use fitness/diet tracker
 - Next.js 14
 - TypeScript 
 - Recharts
-- lucide-react
+- lucide-react 
 - react
 
 ## Run locally
