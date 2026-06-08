@@ -21,7 +21,7 @@ An easy-to-use fitness/diet tracker
 - TypeScript 
 - Recharts 
 - lucide-react 
-- react
+- react 
 
 ## Run locally
 ```bash 
