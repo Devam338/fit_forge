@@ -25,7 +25,7 @@ An easy-to-use fitness/diet tracker
 
 ## Run locally
 ```bash 
-npm install
+npm install 
 npm run dev
 ```
 
