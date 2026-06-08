@@ -26,7 +26,7 @@ An easy-to-use fitness/diet tracker
 ## Run locally
 ```bash 
 npm install 
-npm run dev
+npm run dev 
 ```
 
 ## Vercel Deployed
