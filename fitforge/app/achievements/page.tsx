@@ -18,7 +18,7 @@ export default function AchievementsPage() {
   const unlocked = badges.filter(([, , done]) => done).length;
 
   return (
-    <div className="stack"> 
+    <div className="stack">  
       <div className="page-header">
         <h1 className="title-xl">Achievements</h1>
       </div>
