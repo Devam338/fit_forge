@@ -7,7 +7,7 @@ An easy-to-use fitness/diet tracker
 ## Included pages
 - Dashboard 
 - Workouts
-- Diet Tracker
+- Diet Tracker 
 - GPS Activity 
 - Progress Tracking 
 - AI Coach 
