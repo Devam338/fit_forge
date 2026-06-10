@@ -2,7 +2,7 @@
 
 import { Card } from '@/components/ui';  
 import { useStore } from '@/components/store'; 
-import { Lock, Trophy } from 'lucide-react'; 
+import { Lock, Trophy } from 'lucide-react';  
 
 export default function AchievementsPage() {
   const { state } = useStore();
