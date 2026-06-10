@@ -13,7 +13,7 @@ An easy-to-use fitness/diet tracker
 - AI Coach 
 - Achievements
 - Notifications
-- Settings 
+- Settings  
 
 
 ## Tech stack
