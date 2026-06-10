@@ -11,7 +11,7 @@ An easy-to-use fitness/diet tracker
 - GPS Activity
 - Progress Tracking 
 - AI Coach 
-- Achievements
+- Achievements 
 - Notifications
 - Settings  
 
