@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react'; 
 import { Card, MetricCard } from '@/components/ui'; 
 import { useStore } from '@/components/store';
 import { WeeklyCaloriesChart, WeightTrendChart, WorkoutConsistencyChart } from '@/components/charts';
