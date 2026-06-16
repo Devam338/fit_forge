@@ -6,7 +6,7 @@ import { useStore } from '@/components/store';
 import { workoutTotals } from '@/lib/utils'; 
 import { useState } from 'react'; 
 
-const muscleGroups = ['chest', 'back', 'legs', 'shoulders', 'cardio', 'arms', 'core'] as const;
+const muscleGroups = ['chest', 'back', 'legs', 'shoulders', 'cardio', 'arms', 'core'] as const; 
 
 export default function WorkoutsPage() {
   const { state, selectedDate, setSelectedDate, addWorkout } = useStore();
