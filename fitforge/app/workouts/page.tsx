@@ -10,7 +10,7 @@ const muscleGroups = ['chest', 'back', 'legs', 'shoulders', 'cardio', 'arms', 'c
 
 export default function WorkoutsPage() {
   const { state, selectedDate, setSelectedDate, addWorkout } = useStore();
-  const [muscleGroup, setMuscleGroup] = useState<typeof muscleGroups[number]>('chest'); 
+  const [muscleGroup, setMuscleGroup] = useState<typeof muscleGroups[number]>('chest');
   const [duration, setDuration] = useState(30);
   const todayWorkouts = state.workouts.filter((w) => w.date === selectedDate);
   const stats = workoutTotals(todayWorkouts);
