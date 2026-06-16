@@ -1,6 +1,6 @@
 'use client';
 
-import { Flame } from 'lucide-react';
+import { Flame } from 'lucide-react'; 
 import { Card } from '@/components/ui';
 import { useStore } from '@/components/store';
 import { workoutTotals } from '@/lib/utils';
