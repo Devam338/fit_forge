@@ -3,7 +3,7 @@
 import { Flame } from 'lucide-react'; 
 import { Card } from '@/components/ui'; 
 import { useStore } from '@/components/store';
-import { workoutTotals } from '@/lib/utils';
+import { workoutTotals } from '@/lib/utils'; 
 import { useState } from 'react';
 
 const muscleGroups = ['chest', 'back', 'legs', 'shoulders', 'cardio', 'arms', 'core'] as const;
