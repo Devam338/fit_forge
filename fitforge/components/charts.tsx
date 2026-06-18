@@ -11,7 +11,7 @@ export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: n
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="consumed" fill="#34c97b" radius={[4,4,0,0]} />
+          <Bar dataKey="consumed" fill="#34c97b" radius={[4,4,0,0]} /> 
           <Bar dataKey="burned" fill="#f97316" radius={[4,4,0,0]} />
         </BarChart>
       </ResponsiveContainer>
