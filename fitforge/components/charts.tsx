@@ -4,7 +4,7 @@ import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContai
 export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: number; burned: number }[] }) {
   return(
     <div className="chart-placeholder">
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width="100%" height="100%"> 
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="day" />
