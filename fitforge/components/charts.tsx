@@ -8,7 +8,7 @@ export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: n
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="day" />
-          <YAxis />
+          <YAxis /> 
           <Tooltip />
           <Legend />
           <Bar dataKey="consumed" fill="#34c97b" radius={[4,4,0,0]} /> 
