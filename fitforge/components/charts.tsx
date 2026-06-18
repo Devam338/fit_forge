@@ -15,7 +15,7 @@ export function WeeklyCaloriesChart({ data }: { data: { day: string; consumed: n
           <Bar dataKey="burned" fill="#f97316" radius={[4,4,0,0]} /> 
         </BarChart>
       </ResponsiveContainer>
-    </div>
+    </div> 
   );
 } 
 
