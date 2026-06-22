@@ -9,7 +9,7 @@ interface StoreContextValue {
   state: AppState;
   selectedDate: string;
   setSelectedDate: (date: string) => void;
-  updateProfile: (updates: Partial<AppState['profile']>) => void;
+  updateProfile: (updates: Partial<AppState['profile']>) => void; 
   setGoal: (goal: AppState['profile']['goal']) => void;
   addWater: (delta: number) => void;
   addWorkout: (workout: Omit<Workout, 'id' | 'date' | 'completed'>) => void;
