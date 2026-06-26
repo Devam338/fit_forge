@@ -38,7 +38,7 @@ export default function AchievementsPage() {
             <div className="row">
               <Lock color={done ? '#22c55e' : '#a3a3a3'} />
               <div>
-                <div style={{ fontWeight: 800, color: done ? '#111827' : '#737373' }}>{title}</div>
+                <div style={{ fontWeight: 800, color: done ? '#111828' : '#737373' }}>{title}</div>
                 <div className="muted">{desc}</div> 
               </div> 
             </div> 
