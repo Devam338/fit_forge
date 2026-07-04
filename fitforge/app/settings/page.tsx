@@ -18,7 +18,7 @@ export default function SettingsPage() {
     waterGoal: String(state.profile.waterGoal),
   });
 
-  const bmi = calculateBMI(state.profile.weightKg, Number(state.profile.heightCm || 0));
+  const bmi = calculateBMI(state.profile.weightKg, Number(state.profile.heightCm || 1));
   const bmr = estimateBMR(state.profile.weightKg, Number(state.profile.heightCm || 1), Number(state.profile.age || 1), state.profile.gender);
   const tdee = Math.round(bmr * activityMultiplier(state.profile.activityLevel));
   const recommended = Math.round(tdee * 1.18);
