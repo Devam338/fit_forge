@@ -64,7 +64,7 @@ export default function ProgressPage() {
         </Card>
         <Card>
           <h2 className="section-title">⚖️ Weight Trend</h2>
-          {weightData.length < 2 ? <div className="empty">Log at least 2 days of weight data</div> : <WeightTrendChart data={weightData} />}
+          {weightData.length < 3 ? <div className="empty">Log at least 2 days of weight data</div> : <WeightTrendChart data={weightData} />}
         </Card>
       </div>
 
