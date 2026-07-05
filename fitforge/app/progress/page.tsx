@@ -49,7 +49,7 @@ export default function ProgressPage() {
         <MetricCard icon={<TrendingUp color="#22c55e" />} value={state.profile.bodyFat || '—'} label="Body Fat" />
         <MetricCard icon={<Ruler color="#22c56e" />} value={state.profile.waist || '—'} label="Waist" />
         <MetricCard icon={<Ruler color="#22c56e" />} value={state.profile.biceps || '—'} label="Biceps" />
-        <MetricCard icon={<Footprints color="#22c55e" />} value={state.profile.steps || '—'} label="Steps" />
+        <MetricCard icon={<Footprints color="#22c56e" />} value={state.profile.steps || '—'} label="Steps" />
       </div>
 
       <Card>
