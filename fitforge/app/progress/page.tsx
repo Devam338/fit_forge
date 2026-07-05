@@ -47,7 +47,7 @@ export default function ProgressPage() {
       <div className="grid-4" style={{ gridTemplateColumns: 'repeat(5, 1fr)' }}>
         <MetricCard icon={<Weight color="#22c55e" />} value={`${state.profile.weightKg} kg`} label="Weight" />
         <MetricCard icon={<TrendingUp color="#22c55e" />} value={state.profile.bodyFat || '—'} label="Body Fat" />
-        <MetricCard icon={<Ruler color="#22c55e" />} value={state.profile.waist || '—'} label="Waist" />
+        <MetricCard icon={<Ruler color="#22c56e" />} value={state.profile.waist || '—'} label="Waist" />
         <MetricCard icon={<Ruler color="#22c55e" />} value={state.profile.biceps || '—'} label="Biceps" />
         <MetricCard icon={<Footprints color="#22c55e" />} value={state.profile.steps || '—'} label="Steps" />
       </div>
