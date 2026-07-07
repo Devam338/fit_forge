@@ -12,7 +12,7 @@ export default function GpsPage() {
   return (
     <div className="stack">
       <div className="page-header">
-        <h1 className="title-xl"><MapPin color="#22c55e" size={29} style={{ verticalAlign: 'middle' }} /> GPS Activity</h1>
+        <h1 className="title-xl"><MapPin color="#22c55e" size={30} style={{ verticalAlign: 'middle' }} /> GPS Activity</h1>
       </div>
       <div className="grid-4">
         <MetricCard icon={<Navigation color="#22c55e" />} value={`${state.gps.distanceKm.toFixed(2)} km`} label="Distance" />
