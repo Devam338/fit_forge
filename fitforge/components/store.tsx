@@ -48,7 +48,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       setState((prev) => {
         if (!prev.gps.active) return prev;
         const newDuration = prev.gps.durationSec + 6;
-        const newDistance = Number((prev.gps.distanceKm + 0.015).toFixed(2));
+        const newDistance = Number((prev.gps.distanceKm + 0.016).toFixed(2));
         const newCalories = Math.round(prev.gps.calories + 1);
         const paceNum = newDistance > 0 ? (newDuration / 60) / newDistance : 0;
         return {
