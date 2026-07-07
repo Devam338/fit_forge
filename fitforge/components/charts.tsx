@@ -28,7 +28,7 @@ export function WeightTrendChart({ data }: { data: { date: string; weight: numbe
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
-          <Line type="monotone" dataKey="weight" stroke="#4f88ff" strokeWidth={3} dot />
+          <Line type="monotone" dataKey="weight" stroke="#4f88ff" strokeWidth={4} dot />
         </LineChart>
       </ResponsiveContainer>
     </div>
