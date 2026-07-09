@@ -42,7 +42,7 @@ export function Sidebar() {
         </nav>
       </div>
       <div className="sidebar-bottom">
-        <div className="sidebar-row"><span>Theme</span><Moon size={18} /></div>
+        <div className="sidebar-row"><span>Theme</span><Moon size={20} /></div>
         <div className="sidebar-row"><span className="row"><LogOut size={20} /> Sign out</span></div>
       </div>
     </aside>
