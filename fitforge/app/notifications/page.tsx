@@ -71,7 +71,7 @@ export default function NotificationsPage() {
                     onClick={() => removeNotification(n.id)}
                     aria-label={`Remove ${n.title} notification`}
                   >
-                    <X size={16} />
+                    <X size={17} />
                   </button>
                 </div>
               </Card>
