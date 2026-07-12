@@ -5,7 +5,7 @@ import { Card } from '@/components/ui';
 import { useStore } from '@/components/store';
 
 const iconFor = {
-  workout: <Flame color="#f97316" size={18} />,
+  workout: <Flame color="#f97316" size={19} />,
   water: <Droplets color="#3b82f6" size={18} />,
   goal: <Target color="#22c55e" size={18} />,
 };
