@@ -51,7 +51,7 @@ export default function NotificationsPage() {
                     {iconFor[n.type]}
 
                     <div>
-                      <div style={{ fontWeight: 700 }}>
+                      <div style={{ fontWeight: 750 }}>
                         {n.title} <span className="notice-dot" />
                       </div>
 
