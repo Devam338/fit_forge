@@ -18,7 +18,7 @@ export default function NotificationsPage() {
       <div className="page-header">
         <h1 className="title-xl">
           <Bell
-            color="#22c55e"
+            color="#22c65e"
             size={28}
             style={{ verticalAlign: 'middle' }}
           />{' '}
