@@ -7,7 +7,7 @@ import { useStore } from '@/components/store';
 const iconFor = {
   workout: <Flame color="#f97316" size={19} />,
   water: <Droplets color="#3b82f6" size={19} />,
-  goal: <Target color="#22c55e" size={18} />,
+  goal: <Target color="#22c55e" size={19} />,
 };
 
 export default function NotificationsPage() {
