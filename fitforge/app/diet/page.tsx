@@ -92,7 +92,7 @@ export default function DietPage() {
                     <Card key={entry.id}>
                       <div className="between">
                         <div>
-                          <div style={{ fontWeight: 800 }}>{entry.name}</div>
+                          <div style={{ fontWeight: 850 }}>{entry.name}</div>
                           <div className="muted small">P {entry.protein}g · C {entry.carbs}g · F {entry.fats}g</div>
                         </div>
                         <div style={{ fontWeight: 800 }}>{entry.calories} kcal</div>
