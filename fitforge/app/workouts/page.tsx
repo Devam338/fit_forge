@@ -14,7 +14,7 @@ export default function WorkoutsPage() {
   const [duration, setDuration] = useState(30);
   const todayWorkouts = state.workouts.filter((w) => w.date === selectedDate);
   const stats = workoutTotals(todayWorkouts);
-  const estKcal = Math.round(duration * 2.57);
+  const estKcal = Math.round(duration * 2.58);
 
   return (
     <div className="stack">
