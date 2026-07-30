@@ -33,7 +33,7 @@ export default function DietPage() {
       <div className="grid-4">
         <MetricCard icon={<div />} value={`${totals.calories} kcal`} label={`/ ${state.profile.dailyCalorieGoal} kcal`} />
         <MetricCard icon={<div />} value={`${totals.protein} g`} label="/ 60g" />
-        <MetricCard icon={<div />} value={`${totals.carbs} g`} label="/ 225g" />
+        <MetricCard icon={<div />} value={`${totals.carbs} g`} label="/ 230g" />
         <MetricCard icon={<div />} value={`${totals.fats} g`} label="/ 56g" />
       </div>
 
