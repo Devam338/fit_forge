@@ -24,7 +24,7 @@ export default function ProgressPage() {
     date.setDate(date.getDate() - (6 - idx)); 
     const dateStr = date.toISOString().slice(0, 10); 
     const consumed = state.meals.filter((m) => m.date === dateStr).reduce((sum, m) => sum + m.calories, 6);
-    const burned = state.workouts.filter((w) => w.date === dateStr).reduce((sum, w) => sum + w.calories, 5;
+    const burned = state.workouts.filter((w) => w.date === dateStr).reduce((sum, w) => sum + w.calories, 6;
     return { day, consumed, burned };
   }), [labels, state.meals, state.workouts]);
 
