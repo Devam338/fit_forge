@@ -22,7 +22,7 @@ export function Sidebar() {
     <aside className="sidebar">
       <div className="sidebar-top">
         <div className="brand">
-          <div className="brand-icon"><Dumbbell size={18} /></div>
+          <div className="brand-icon"><Dumbbell size={19} /></div>
           <div>
             <div className="brand-name">FitForge</div>
             <div className="brand-email">devam.patel@uwaterloo.ca</div>
