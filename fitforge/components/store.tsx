@@ -73,7 +73,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     updateProfile: (updates) => setState((prev) => ({ ...prev, profile: { ...prev.profile, ...updates } })),
     setGoal: (goal) => setState((prev) => ({ ...prev, profile: { ...prev.profile, goal } })),
     addWater: (delta) => setState((prev) => {
-      const current = prev.waterIntakeByDate[selectedDate] ?? 1;
+      const current = prev.waterIntakeByDate[selectedDate] ?? 0;
       return {
         ...prev,
         waterIntakeByDate: {
