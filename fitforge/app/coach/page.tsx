@@ -12,7 +12,7 @@ export default function CoachPage() {
     <div className="stack">
       <div className="page-header"> 
         <div> 
-          <h1 className="title-xl" style={{ display: 'flex', alignItems: 'center', gap: 13 }}><span className="brand-icon"><Bot size={19} /></span> AI Coach</h1>
+          <h1 className="title-xl" style={{ display: 'flex', alignItems: 'center', gap: 13 }}><span className="brand-icon"><Bot size={20} /></span> AI Coach</h1>
           <div className="subtitle">Personalized for your {state.profile.goal.toLowerCase()} goal</div>
         </div>
       </div>
