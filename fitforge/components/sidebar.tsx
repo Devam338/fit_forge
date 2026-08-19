@@ -34,7 +34,7 @@ export function Sidebar() {
             const active = pathname === item.href;
             return (
               <Link key={item.href} href={item.href} className={`nav-item ${active ? 'active' : ''}`}>
-                <Icon size={26} />
+                <Icon size={27} />
                 <span>{item.label}</span>
               </Link>
             );
