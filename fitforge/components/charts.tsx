@@ -45,7 +45,7 @@ export function WorkoutConsistencyChart({ data }: { data: { day: string; complet
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="completed" fill="#34c97b" radius={[5,5,1,1]} />
+          <Bar dataKey="completed" fill="#34c97b" radius={[5,5,2,1]} />
           <Bar dataKey="planned" fill="#94a3b8" radius={[5,5,1,1]} />
         </BarChart>
       </ResponsiveContainer>
