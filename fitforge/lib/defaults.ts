@@ -34,7 +34,7 @@ export const defaultState: AppState = {
     {
       id: '2',
       title: 'Stay hydrated',
-      body: "You've had 3 glasses today. Aim for 8!",
+      body: "You've had 3 glasses today. Aim for 8! ",
       time: '1h ago',
       type: 'water',
     },
