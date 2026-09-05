@@ -27,7 +27,7 @@ export const defaultState: AppState = {
     {
       id: '1',
       title: 'Keep it up! 🔥',
-      body: "You're on a streak! Don't forget today's workout.",
+      body: "You're on a streak! Don't forget today's workout. ",
       time: 'Just now',
       type: 'workout',
     },
