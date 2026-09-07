@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import { Bell, Bot, Dumbbell, Flame, LayoutDashboard, LogOut, MapPin, Moon, Salad, Settings, Trophy, TrendingUp } from 'lucide-react';
 
 const items = [
-  { href: '/', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/', label: 'Dashboard', icon: LayoutDashboard }, 
   { href: '/workouts', label: 'Workouts', icon: Dumbbell },
   { href: '/diet', label: 'Diet', icon: Salad },
   { href: '/gps', label: 'GPS Activity', icon: MapPin },
