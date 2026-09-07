@@ -5,7 +5,7 @@ import { Bell, Bot, Dumbbell, Flame, LayoutDashboard, LogOut, MapPin, Moon, Sala
 
 const items = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard }, 
-  { href: '/workouts', label: 'Workouts', icon: Dumbbell },
+  { href: '/workouts', label: 'Workouts', icon: Dumbbell }, 
   { href: '/diet', label: 'Diet', icon: Salad },
   { href: '/gps', label: 'GPS Activity', icon: MapPin },
   { href: '/progress', label: 'Progress', icon: TrendingUp },
